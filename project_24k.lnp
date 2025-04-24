@@ -1,0 +1,14 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\adc.o"
+".\delay.o"
+".\esp01.o"
+".\uart_int.o"
+".\lcd.o"
+".\keypad.o"
+".\rtc.o"
+".\main3.o"
+--strict --scatter ".\project_24k.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\project_24k.map" -o .\project_24k.axf

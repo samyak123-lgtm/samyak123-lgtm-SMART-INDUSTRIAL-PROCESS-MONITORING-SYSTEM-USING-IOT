@@ -1,0 +1,53 @@
+Dependencies for Project 'Major_proj_ARM', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x6809F9EE)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\ADC.c)(0x6809F9DF)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x532C1500)
+I (types.h)(0x6809FDB4)
+I (defines.h)(0x6809FDB4)
+I (adc_defines.h)(0x6809F9E0)
+I (delay.h)(0x6809F9E1)
+F (.\delay.c)(0x6809F9E1)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (types.h)(0x6809FDB4)
+F (.\esp01.c)(0x6809FDB4)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\esp01.o --omf_browse .\esp01.crf --depend .\esp01.d)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (uart0.h)(0x6809F9EE)
+I (delay.h)(0x6809F9E1)
+I (types.h)(0x6809FDB4)
+I (lcd.h)(0x6809F9E4)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+F (.\UART_INT.c)(0x6809F9EE)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\uart_int.o --omf_browse .\uart_int.crf --depend .\uart_int.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+F (.\lcd.c)(0x6809FCFA)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (delay.h)(0x6809F9E1)
+I (types.h)(0x6809FDB4)
+I (lcd.h)(0x6809F9E4)
+I (defines.h)(0x6809FDB4)
+F (.\keypad.c)(0x6809F9E3)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\keypad.o --omf_browse .\keypad.crf --depend .\keypad.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x532C1500)
+I (defines.h)(0x6809FDB4)
+I (types.h)(0x6809FDB4)
+I (keypad_defines.h)(0x6809F9E3)
+I (lcd.h)(0x6809F9E4)
+I (lcd_defines.h)(0x6809FDF6)
+F (.\rtc.c)(0x6809F9EC)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\rtc.o --omf_browse .\rtc.crf --depend .\rtc.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+I (types.h)(0x6809FDB4)
+I (lcd.h)(0x6809F9E4)
+I (lcd_defines.h)(0x6809FDF6)
+I (keypad.h)(0x6809F9E3)
+I (delay.h)(0x6809F9E1)
+I (rtc_defines.h)(0x6809F9ED)
+F (.\main3.c)(0x6809FC9A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main3.o --omf_browse .\main3.crf --depend .\main3.d)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
+I (uart0.h)(0x6809F9EE)
+I (delay.h)(0x6809F9E1)
+I (types.h)(0x6809FDB4)
+I (lcd.h)(0x6809F9E4)
+I (esp01.h)(0x6809F9E2)
+I (keypad.h)(0x6809F9E3)
+I (adc.h)(0x6809F9E0)
+I (rtc.h)(0x6809F9EC)
+I (defines.h)(0x6809FDB4)

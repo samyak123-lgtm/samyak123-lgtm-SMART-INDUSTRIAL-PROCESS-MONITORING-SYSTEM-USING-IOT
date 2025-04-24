@@ -1,0 +1,11 @@
+.\main3.o: main3.c
+.\main3.o: C:\Keil\ARM\Inc\Philips\LPC214X.H
+.\main3.o: uart0.h
+.\main3.o: delay.h
+.\main3.o: types.h
+.\main3.o: lcd.h
+.\main3.o: esp01.h
+.\main3.o: keypad.h
+.\main3.o: adc.h
+.\main3.o: rtc.h
+.\main3.o: defines.h
